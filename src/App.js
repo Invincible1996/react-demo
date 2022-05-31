@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
 function App() {
+
+  function login(){
+    alert('login')
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React 666666
-        </a>
-      </header>
+      <div className="input-container">
+      <input className="input-item" placeholder="请输入用户名"/>
+      <input className="input-item" placeholder="请输入密码"/>
+      <button className="btn" onClick={login}>login</button>
+      </div>
     </div>
   );
 }
