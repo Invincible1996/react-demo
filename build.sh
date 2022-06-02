@@ -6,4 +6,4 @@ npm install
 npm run build
 
 # 复制打包文件
-cp -r build/* /var/wwww/html/ 
+cp -r build/* /var/www/html/
