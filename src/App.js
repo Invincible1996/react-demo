@@ -26,38 +26,38 @@ function App() {
         </div>
         <div className="hidden md:flex space-x-6">
           <a
-            href="http://localhost:3000"
+            href="#"
             className="hover:text-darkGrayishBlue"
           >
             Pricing
           </a>
           <a
-            href="http://localhost:3000"
+            href="#"
             className="hover:text-darkGrayishBlue"
           >
             Product
           </a>
           <a
-            href="http://localhost:3000"
+            href="#"
             className="hover:text-darkGrayishBlue"
           >
             About Us
           </a>
           <a
-            href="http://localhost:3000"
+            href="#"
             className="hover:text-darkGrayishBlue"
           >
             Careers
           </a>
           <a
-            href="http://localhost:3000"
+            href="#"
             className="hover:text-darkGrayishBlue"
           >
             Community
           </a>
         </div>
         <a
-          href="http://localhost:3000"
+          href="#"
           className="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight cursor-pointer"
         >
           Get Started
@@ -78,7 +78,7 @@ function App() {
           </p>
           <div className="flex justify-center md:justify-start">
             <a
-              href="http://localhost:3000"
+              href="#"
               className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight cursor-pointer"
             >
               Get Started
